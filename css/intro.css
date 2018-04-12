@@ -1,0 +1,31 @@
+.intro {
+  width: 980px;
+  min-height: 480px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: black;
+  text-align: center;
+  margin: auto;
+  line-height: 80px;
+
+}
+
+.intro-title {
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration-style: unset;
+}
+
+.intro-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.intro-pic {
+  width: 100%;
+  height: auto;
+  background: #000000 url("../assets/space.jpg") no-repeat right top;
+  background-size: 100% 100%;
+  background-position: center;
+}

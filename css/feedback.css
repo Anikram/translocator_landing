@@ -1,0 +1,39 @@
+.feedbacks {
+  background-color: #CAD3C8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.feedback {
+  width: 80%;
+  background-color: #8ea08e;
+  border-style: hidden;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+
+}
+
+.feedback-pic {
+  border-style: solid;
+  border-color: #D6A2E8;
+  border-width: 2px;
+  border-radius: 100%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  line-height: 80px;
+  margin-top: 30px;
+}
+
+.feedback-txt {
+  margin: auto;
+}
+
+.feedback-borders {
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #FC427B;
+}

@@ -1,0 +1,55 @@
+.actions {
+
+}
+
+.action {
+  margin: auto;
+}
+
+.action-pic {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+.action-textblock {
+  background-color: #8ea08e;
+  border-style: hidden;
+  border-radius: 20px;
+  width: 90%;
+  height: auto;
+}
+
+.action-text {
+  font-size: 40px;
+  padding: 10px;
+  color: #CAD3C8;
+ }
+
+@media (max-width: 800px) {
+  .action-txt {
+    text-align: center;
+  }
+}
+
+.action-button {
+  background-color: #D6A2E8;
+  width: 50%;
+  margin: auto;
+  display: block;
+  height: 100px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #FC427B;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 80px;
+  text-decoration-line: none;
+}
+
+.action-link {
+  color: #FC427B;
+  text-decoration: none;
+  font-weight: bold;
+
+}

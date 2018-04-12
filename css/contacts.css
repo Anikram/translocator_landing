@@ -1,0 +1,40 @@
+.contacts {
+  content: "";
+}
+
+.contact {
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 80%;
+  background-color: #8ea08e;
+  height: 300px;
+  border-style: hidden;
+  border-radius: 20px;
+}
+
+.contact-text {
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5em;
+}
+
+.contact-pic {
+  background-color: transparent;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.contacts-bg {
+  background-color: #CAD3C8;
+}
+
+.contact-image {
+  width: 500px;
+  background-color: transparent;
+  display: block;
+  margin: auto;
+}
+
+
