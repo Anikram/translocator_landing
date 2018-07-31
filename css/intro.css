@@ -1,5 +1,6 @@
 .intro {
   width: 980px;
+  display: flex;
   min-height: 480px;
   padding-right: 10px;
   padding-left: 10px;
@@ -16,12 +17,18 @@
   font-weight: bold;
   text-decoration-style: unset;
   text-align: center;
+  display: block;
+  width: 90%;
 }
 
 .intro-text {
+  display: block;
+  margin: auto;
+  width: 90%;
   font-size: 1.5em;
   font-weight: bold;
   font-style: italic;
+
 }
 
 .intro-pic {

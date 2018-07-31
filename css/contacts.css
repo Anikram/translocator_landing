@@ -1,5 +1,6 @@
 .contacts {
   content: "";
+  min-height: 480px;
 }
 
 .contact {
@@ -8,7 +9,6 @@
   margin-bottom: 70px;
   width: 80%;
   background-color: #8ea08e;
-  height: 300px;
   border-style: hidden;
   border-radius: 20px;
 }
@@ -28,11 +28,18 @@
 
 .contacts-bg {
   background-color: #CAD3C8;
+  padding-bottom: 100px;
 }
 
 .contact-image {
   width: 500px;
   background-color: transparent;
+  display: inline-block;
+  margin: auto;
+}
+
+.contact-block {
+  width: 90%;
   display: block;
   margin: auto;
 }

@@ -6,13 +6,19 @@
   padding-left: 25%;
 }
 
-.feature {
+.feature-block {
+  margin: auto;
+}
 
+.feature {
+  display: block;
   width: 80%;
+  margin: 5%;
+  padding: 20px;
   background-color: #8ea08e;
   border-style: hidden;
   border-radius: 20px;
-  display: block;
+
 }
 
 .feature-pic {
@@ -20,16 +26,26 @@
   border-color: #D6A2E8;
   border-width: 2px;
   border-radius: 100%;
-  display: block;
+  display: flex;
   width: 100px;
   height: 100px;
-  margin: auto;
   text-align: center;
   line-height: 80px;
   background-color: #D6A2E8;
+  margin: auto;
 }
 
 .feature-txt {
+  line-height: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.feature-txt-span {
+  margin: auto;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: large;
 }
 
 .features.container {

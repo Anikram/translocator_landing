@@ -4,14 +4,14 @@
   padding-bottom: 100px;
 }
 
-.feedback {
+.feedback-block {
+  display: inline-block;
   width: 80%;
+  margin: 6%;
+  padding: 10px;
   background-color: #8ea08e;
   border-style: hidden;
   border-radius: 20px;
-  display: block;
-  margin: auto;
-
 }
 
 .feedback-pic {
@@ -20,16 +20,22 @@
   border-width: 2px;
   border-radius: 100%;
   display: block;
-  width: 100px;
-  height: 100px;
   margin: auto;
-  text-align: center;
-  line-height: 80px;
-  margin-top: 30px;
+  width: 90%;
+  height: 90%;
 }
 
 .feedback-txt {
+  line-height: 100px;
+  text-align: center;
   margin: auto;
+}
+
+.feedback-txt-span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: large;
 }
 
 .feedback-borders {
